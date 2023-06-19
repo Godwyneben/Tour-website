@@ -677,6 +677,19 @@ header .search-bar-container label:hover{
 
 
 /* media queries */
+@media (max-width:1024px){
+
+    header .logo span{
+        margin-left: -2rem;
+    }
+
+    header .navbar a{
+        color: #fff;
+        font-size: 1rem;
+        margin: 0 .8rem;   
+    }
+
+}
 
 @media (max-width:1200px){
 
