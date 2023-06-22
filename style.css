@@ -29,7 +29,7 @@ html{
 
 header{
     position: fixed;
-    /* width: 100%; */
+    width: 100%;
     top:0; left: 0; right: 0;
     background: skyblue;
     z-index: 1000;
@@ -745,7 +745,7 @@ header .search-bar-container label:hover{
 
 }
 
-@media (max-width:450px){
+@media (max-width:650px){
 
     html{
         font-size: 45%;
@@ -759,4 +759,26 @@ header .search-bar-container label:hover{
         width: 100%;
     }
 
+    .footer .box-container .box{
+        margin: 1rem;
+        flex: 1 1 15rem;
+    }
+
+    .footer .box-container .box h3{
+        font-size: 1.5rem;
+        padding: 1rem 0;
+        color: #fff;
+    }
+
+    .footer .box-container .box p{
+        font-size: 1.5rem;
+    }
+
+    .footer .box-container .box a{
+        font-size: 1.5rem;
+    }
+
+    .footer .credit{
+        font-size: 1.5rem;
+    }
 }
