@@ -676,7 +676,6 @@ header .search-bar-container label:hover{
 
 /* media queries */
 @media (max-width:1024px){
-
     header .logo span{
         margin-left: -2rem;
     }
@@ -686,19 +685,15 @@ header .search-bar-container label:hover{
         font-size: 1.5rem;
         margin: 0 .4rem;   
     }
-
 }
 
 @media (max-width:1200px){
-
     html{
         font-size: 55%;
     }
-
 }
 
 @media (max-width:991px){
-
     header{
         padding: 2rem;
     }
@@ -706,12 +701,10 @@ header .search-bar-container label:hover{
     section{
         padding: 2rem;
     }
-
 }
 
 
 @media (max-width:768px){
-
     #menu-bar{
         display: initial;
     }
@@ -740,11 +733,9 @@ header .search-bar-container label:hover{
         margin: 1.5rem 0;
         background: rgb(72, 192, 240);
     }
-
 }
 
 @media (max-width:650px){
-
     html{
         font-size: 45%;
     }
