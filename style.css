@@ -55,8 +55,7 @@ header .logo span{
 header .navbar a{
     color: #fff;
     font-size: 2rem;
-    margin: 0 .8rem;
-    
+    margin: 0 .8rem;  
 }
 
 header .navbar a:hover{
@@ -644,13 +643,12 @@ header .search-bar-container label:hover{
 }
 
 .footer .box-container .box p{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     padding: 1rem 0;
     color: #eee;
 }
 
 .footer .box-container .box a{
-    /* display: flex; */
     font-size: 2rem;
     padding: .4rem .3rem;
     color: #fff;
@@ -755,27 +753,36 @@ header .search-bar-container label:hover{
         font-size: 2.5rem;
     }
 
+    header .navbar a{
+        font-size: 2rem;
+        margin: 0.2rem 0.8rem; 
+    }
+
     .contact .row form .inputBox input{
         width: 100%;
     }
 
+    .footer .box-container{
+        max-height: 12vh;
+    }
+
     .footer .box-container .box{
-        margin: 1rem;
-        flex: 1 1 15rem;
+        max-width: 15vh;
     }
 
     .footer .box-container .box h3{
         font-size: 1.5rem;
         padding: 1rem 0;
-        color: #fff;
     }
 
     .footer .box-container .box p{
-        font-size: 1.5rem;
+        margin-top: -1rem;
+        font-size: 1rem;
+        padding-bottom: 1rem;
     }
 
     .footer .box-container .box a{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .footer .credit{
