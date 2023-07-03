@@ -288,7 +288,7 @@ header .search-bar-container label:hover{
     background: skyblue;
     color: var(--yellow);
     border-radius: .5rem;
-    padding: 1rem 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .heading span.space{
@@ -769,7 +769,7 @@ header .search-bar-container label:hover{
     }
 
     .footer .box-container .box{
-        max-width: 15vh;
+        max-width: 3vh;
     }
 
     .footer .box-container .box h3{
