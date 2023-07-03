@@ -518,7 +518,6 @@ header .search-bar-container label:hover{
     overflow-x: hidden;
 }
 
-
 .review-slider{
     padding-bottom: 2rem;  
 }
@@ -684,12 +683,19 @@ header .search-bar-container label:hover{
         font-size: 1.5rem;
         margin: 0 .4rem;   
     }
-}
 
-@media (max-width:1200px){
-    html{
-        font-size: 55%;
+    .review{
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
     }
+
+      .brand-container{
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+    
 }
 
 @media (max-width:991px){
@@ -732,6 +738,18 @@ header .search-bar-container label:hover{
         margin: 1.5rem 0;
         background: rgb(72, 192, 240);
     }
+
+    .review{
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+
+    .brand-container{
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
 }
 
 @media (max-width:650px){
@@ -758,6 +776,12 @@ header .search-bar-container label:hover{
         width: 100%;
     }
 
+    .review{
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+
     .brand-container{
         width: 100%;
         height: 100%;
@@ -765,15 +789,16 @@ header .search-bar-container label:hover{
     }
 
     .footer .box-container{
-        max-height: 12vh;
+        max-height: 10vh;
     }
 
     .footer .box-container .box{
-        max-width: 3vh;
+        max-width: 10vh;
+        margin-top: -1rem;
     }
 
     .footer .box-container .box h3{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         padding: 1rem 0;
     }
 
@@ -781,13 +806,18 @@ header .search-bar-container label:hover{
         margin-top: -1rem;
         font-size: 1rem;
         padding-bottom: 1rem;
+        padding-left: 1rem;
+        margin-left: -1rem;
+        text-align: justify;
+        inline-size: 10rem;
     }
 
     .footer .box-container .box a{
         font-size: 1rem;
+        margin-bottom: 4rem;
     }
 
     .footer .credit{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 }
