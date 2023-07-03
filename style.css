@@ -513,8 +513,11 @@ header .search-bar-container label:hover{
 }
 
 .review .review-slider{
-    padding-bottom: 2rem;    
+    padding-bottom: 2rem;  
+    width: 100%;
+    max-width: 40%;  
 }
+
 
 .review .box{
     padding: 2rem;
@@ -522,7 +525,6 @@ header .search-bar-container label:hover{
     box-shadow: 01rem 2rem rgb(0, 0, 0, .1);
     border-radius: .5rem;
 }
-
 
 .review .box img{
     height: 13rem;
@@ -610,6 +612,7 @@ header .search-bar-container label:hover{
 .brand-container{
     text-align: center;
     padding-top: 1rem;
+    max-width: 20%;
 }
 
 .footer{
@@ -733,7 +736,8 @@ header .search-bar-container label:hover{
     }
 
     header .logo{
-        font-size: 1.5rem;
+        font-size: 1.8rem;
+        /* padding-left: 3rem; */
     }
 
     header .navbar a{
@@ -744,6 +748,11 @@ header .search-bar-container label:hover{
     .contact .row form .inputBox input{
         width: 100%;
     }
+
+    .brand-container{
+
+    }
+    
 
     .footer .box-container{
         max-height: 12vh;
